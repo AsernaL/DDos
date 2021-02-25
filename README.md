@@ -10,7 +10,8 @@ cd DDos
 
 python3 asernaldos.py
 
-#Turkish
+# Turkish
+
 Site adresini başında www olmadan https olmadan duz sekilde yazin
 
 Örnek
