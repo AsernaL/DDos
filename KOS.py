@@ -21,7 +21,7 @@ print(Fore.LIGHTBLUE_EX+baner)
 print(Fore.BLUE+'İnstagram = @KnightL4ncelot')
 print(Fore.CYAN+'KnightsOfShadow #Anonymous')
 
-print(Fore.BLUE+"DDos Website (K.O..) ")
+print(Fore.BLUE+"DDos Website (K.O.S) ")
 print(Fore.BLUE+"website url")
 target = input("\t ------------) ")
 print("Kendinizi gizlemek icin rastgele bi ip girin....")
