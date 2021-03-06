@@ -1,4 +1,4 @@
-# DDos
+# Dos
 Send tons packet on the web sites
 
 # install
