@@ -47,8 +47,8 @@ def attack():
         attack_num += 1
         packesnum =attack_num
         packesnum= str(packesnum)
-        print("Paketler Gönderiliyor.... => "+packesnum)
-        print("Gonderildi....")
+        print("[#]Paketler Gönderiliyor-----] "+[packesnum])
+        print("<Gonderildi>")
         
         
 print("Paketler Basari ile gonderildi!")
