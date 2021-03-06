@@ -47,7 +47,7 @@ def attack():
         attack_num += 1
         packesnum =attack_num
         packesnum= str(packesnum)
-        print("[print(Fore.CYAN+'!')]Paketler Gönderiliyor-----> "+packesnum)
+        print(print(Fore.CYAN+"[!]")+"Paketler Gönderiliyor-----> "+packesnum)
         
         
         
