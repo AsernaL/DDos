@@ -23,11 +23,11 @@ print(Fore.CYAN+'KnightsOfShadow #Anonymous')
 
 print(Fore.BLUE+"DDos Website (K.O..) ")
 print(Fore.BLUE+"website url")
-target = input("\t -----------) ")
+target = input("\t ------------) ")
 print("Kendinizi gizlemek icin rastgele bi ip girin....")
-fake_ip = input("\t\t -----------) ")
+fake_ip = input("\t\t ------------) ")
 print("K.O.S Port Tarama uzerinden baktığınzı açık portu girin")
-port = input("\t\t -----------) ")
+port = input("\t\t ------------) ")
 
 port = int(port)
 
