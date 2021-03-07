@@ -1,11 +1,14 @@
 import socket
 import threading 
 from pip._vendor.colorama import Fore
+import subprocess
 
 #Örnek veri poliçesi.
 #target = '195.20.52.179'
 #fake_ip = '182.21.20.32'
 #port = 80
+
+subprocess.call('clear', shell=True)
 
 baner = ('''
   _   _  _                  _       _   
@@ -21,13 +24,16 @@ print(Fore.LIGHTBLUE_EX+baner)
 print(Fore.BLUE+'İnstagram = @KnightL4ncelot')
 print(Fore.CYAN+'KnightsOfShadow #Anonymous')
 
-print(Fore.BLUE+"DDos Website (K.O..) ")
+print(Fore.BLUE+"DDos Website (K.O.S) ")
 print(Fore.BLUE+"website url")
-target = input("\t -----------) ")
+target = input(Fore.CYAN+" ┌─/"+Fore.LIGHTBLUE_EX+"Write Website"+Fore.CYAN+"""/
+ └──╼ """+Fore.LIGHTBLUE_EX+"=> ")
 print("Kendinizi gizlemek icin rastgele bi ip girin....")
-fake_ip = input("\t\t -----------) ")
+fake_ip = input(Fore.CYAN+" ┌─/"+Fore.LIGHTBLUE_EX+"Write Fake ip"+Fore.CYAN+"""/
+ └──╼ """+Fore.LIGHTBLUE_EX+"=> ")
 print("K.O.S Port Tarama uzerinden baktığınzı açık portu girin")
-port = input("\t\t -----------) ")
+port = input(Fore.CYAN+" ┌─/"+Fore.LIGHTBLUE_EX+"Write Port"+Fore.CYAN+"""/
+ └──╼ """+Fore.LIGHTBLUE_EX+"=> ")
 
 port = int(port)
 
