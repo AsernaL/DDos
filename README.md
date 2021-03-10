@@ -11,4 +11,4 @@ cd Dos
 python3 KOS.py
 
 # İnstagram
-instagram @KnightL4ncelot
+https://www.instagram.com/knightl4ncelot/
